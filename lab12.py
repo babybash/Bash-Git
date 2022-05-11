@@ -1,3 +1,10 @@
+# save this as lab12.py
+from flask import Flask
+
+lab12 = Flask(__name__)
+
+@app.route("/")
+
 from tensorflow.keras.applications import vgg16, inception_v3, resnet50, mobilenet
  
 # Load the VGG model
