@@ -1,7 +1,7 @@
 # save this as lab12.py
 from flask import Flask
 
-lab12 = Flask(__name__)
+app = Flask(__name__)
 @app.route("/")
 def hello():
 
