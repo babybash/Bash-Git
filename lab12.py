@@ -55,7 +55,7 @@ def hello():
 
      return image_batch
 
- image_batch = prepare_image('TestImages/banana.jpg', (224, 224))
+ image_batch = prepare_image('./TestImages/banana.jpg', (224, 224))
 
  """# New Section"""
 
@@ -73,7 +73,7 @@ def hello():
 
      return label
 
- image_batch = prepare_image('TestImages/banana.jpg', (224, 224))
+ image_batch = prepare_image('./TestImages/banana.jpg', (224, 224))
 
  print("---vgg16---")
  print(predict(vgg16, vgg16.VGG16, image_batch))
@@ -88,7 +88,7 @@ def hello():
  print()
 
  # inception_v3 requires image to be 299x299
- image_batch = prepare_image('TestImages/banana.jpg', (299, 299))
+ image_batch = prepare_image('./TestImages/banana.jpg', (299, 299))
 
  print("---inception_v3---")
  print(predict(inception_v3, inception_v3.InceptionV3, image_batch))
