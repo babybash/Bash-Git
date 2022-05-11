@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1R2ts0YhLMS_8VSrDyKoV-3FZy0e6qPv8
 """
 
-pip install -U Flask
+#pip install -U Flask
 
 # save this as app.py
 from flask import Flask
@@ -18,5 +18,5 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
-!flask run
+#flask run
 
